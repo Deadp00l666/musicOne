@@ -1,0 +1,9 @@
+footer {
+  background-color: theme-color('primary');
+  text-align: center;
+  padding: 20px;
+  color: theme-color('light');
+  p {
+    margin:0;
+  }
+}

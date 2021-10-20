@@ -1,0 +1,20 @@
+@import "base/theme";
+@import "components/base/header";
+@import "components/base/footer";
+
+body {
+    margin: 0;
+    font-family: theme-font('content');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+

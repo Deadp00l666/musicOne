@@ -1,0 +1,30 @@
+header {
+  background-color: theme-color('primary');
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header__nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__list {
+  position: relative;
+  list-style: none;
+}
+
+.header__link {
+  position: relative;
+  margin: 0 15px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  cursor: none;
+}
